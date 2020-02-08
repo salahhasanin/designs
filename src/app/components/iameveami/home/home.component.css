@@ -1,0 +1,276 @@
+.firstSection {
+  position: relative;
+}
+
+#myVideo {
+  /* position:relative; */
+  width: 100%;
+  /* max-height: 2000px; */
+  z-index: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.firstSectionAllContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-stretch: narrower;
+  transition: color 1s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-stretch: 10%;
+}
+
+.nav-link:hover {
+  color: #A56664;
+}
+
+.SubscribeBTN {
+  color: #A56664;
+  padding: 10px;
+  width: 130px;
+  border-color: #A56664;
+  border-width: 0.01mm;
+  background-color: Transparent;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstSectionContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*  */
+/*  */
+.secondSection {
+  bottom: 20px;
+  position: relative;
+}
+
+#mySecondVideo {
+  width: 100%;
+  z-index: 0;
+}
+
+.secondSectionAllContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.secondSectionAllContent img {
+
+  width: 100%
+}
+
+.secondSectionTXTContent {
+  position: relative;
+  bottom: 800px;
+  /* z-index: 2; */
+}
+
+.secondSectionTXTContent p {
+  text-align: left;
+  font-style: italic;
+  font-size: 22px;
+  color: #ffffff
+}
+
+.secondSectionTXTContent .secondP {
+  font-size: 54px;
+  line-height: 1em;
+  color: #ffffff;
+  font-style: normal;
+  width: 250px;
+  font-family: wfont_6cff20_c124bb414da44d298bb4e49b3f3e3851, wf_c124bb414da44d298bb4e49b3, orig_roboto_bold;
+}
+
+.secondSectionTXTContent .secondspan {
+  color: #ffffff;
+  width: 380px;
+  pointer-events: none;
+  visibility: inherit;
+  font-size: 21px;
+
+}
+
+.secondSecImgs {
+  z-index: 2;
+}
+
+/*  */
+/*  */
+.thirdSection {
+  position: relative;
+  top: 270px
+}
+
+.thirdSection .thirdSectionContent {
+  width: 100%;
+  z-index: 0;
+}
+
+.thirdSection .thirdSectionContent h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  /* font-family: wfont_6cff20_c124bb414da44d298bb4e49b3f3e3851,wf_c124bb414da44d298bb4e49b3,orig_roboto_bold; */
+  color: #ffffff;
+}
+
+.thirdSection .playVideo {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+.thirdSection .playVideo a {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
+}
+
+.thirdSection .playVideo a img {
+  top: 30%;
+}
+
+.thirdSection .playVideo a h3 {
+  display: inline;
+}
+
+/*  */
+/*  */
+.fourthSection {
+  position: relative;
+  top: 270px;
+  width: 100%;
+}
+
+.topRowFourth {
+  background-color: rgb(1, 1, 15);
+  height: 180px;
+}
+
+.fourthSection .fourthAbove {
+  /* width: 98.99%; */
+}
+
+.fourthSectionSecondRow {
+  background-color: #1B1B21;
+}
+
+.fourthSectionAllContent img {
+  display: inline;
+}
+
+.fourthSectionTXT {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: #ffffff;
+  /* text-align: center; */
+}
+
+.fourthSectionTXT p {
+  font-size: 54px;
+  line-height: 1em;
+  color: #ffffff;
+  font-style: normal;
+  width: 450px;
+  font-family: wfont_6cff20_c124bb414da44d298bb4e49b3f3e3851, wf_c124bb414da44d298bb4e49b3, orig_roboto_bold;
+}
+
+.fourthSectionTXT .fourthSectionTXTFirst {
+  color: #ffffff;
+  width: 380px;
+  pointer-events: none;
+  visibility: inherit;
+  font-size: 21px;
+}
+
+.fourthSection .fourthLastIMG {
+  width: 95%;
+}
+
+/*  */
+/*  */
+.fifthSection {
+  position: relative;
+  top: 140px
+}
+
+.topRowFifth {
+  background-color: rgb(1, 1, 15);
+  height: 350px;
+}
+
+.fifthSectionContent {
+  color: #C7C7C7;
+  width: 500px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.fifthSectionContent span {
+  margin-left: 15px;
+}
+
+.fifthSectionSubscribe {
+  /* width: 300px; */
+  height: 80px;
+  border: solid;
+  border-width: 1px;
+  margin: auto;
+  border-color: #C7C7C7;
+}
+
+.fifthSectionSubscribe input {
+  border: none;
+  background: none;
+}
+
+.fifthSectionSubscribe button {
+  background-color: Transparent;
+  border: none;
+  color: rgba(176, 44, 84, 1);
+  font: italic normal normal 18px/22px georgia, palatino, "book antiqua", "palatino linotype", serif;
+}
+
+/*  */
+/*  */
+.sixthSection {
+  position: relative;
+  top: 140px
+}
+
+.topRowSixth {
+  background-color: rgb(1, 1, 15);
+  /* height: 350px; */
+}
+
+.fourthAbove {
+  width: 100%;
+}
+
+/*  */
+/*  */
+.sevenhSection {
+  position: relative;
+  top: 140px
+}
+
+.seventhSectionContent {
+  background-color: rgb(1, 1, 15);
+  height: 350px;
+}

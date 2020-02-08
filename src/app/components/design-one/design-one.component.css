@@ -1,0 +1,256 @@
+.firstSection {
+  height: 100px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  overflow-y: scroll;
+
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(29, 44, 58);
+}
+
+.logoSection {
+  background-color: rgb(237, 205, 31);
+  padding: 25px;
+}
+.logoImg {
+  text-justify: center;
+}
+.logTitle {
+  display: inline-block;
+  font-size: 30px;
+  text-justify: center;
+  line-height: 20px;
+}
+.logTitleAbove {
+  font-weight: normal;
+}
+.logTitleDown {
+  color: rgb(30, 45, 59);
+  font-weight: lighter;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ffcb05;
+}
+.content {
+  display: flex;
+}
+.firstSectionContent {
+  margin-top: 120px;
+  margin-left: 300px;
+  justify-content: center;
+  text-align: center;
+  line-height: 70px;
+  z-index: 2;
+}
+.firstSectionText {
+  max-width: 700px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  /* z-index: 3; */
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/* .Services{
+  background-color: #ffffff;
+} */
+.sectionTwo {
+  background-color: #ffffff;
+  margin-top: 800px;
+  position: relative;
+}
+.Services {
+  margin-top: 150px;
+}
+.section-header .section-title {
+  margin-top: 50px;
+  font-size: 70px;
+}
+.section-header .line {
+  width: 150px;
+  background: #ddd;
+  height: 2px;
+  margin: auto;
+}
+.section-header .line span {
+  display: block;
+  width: 100px;
+  height: 10px;
+  background-color: rgb(237, 205, 31);
+  margin: auto;
+  position: relative;
+  bottom: 2px;
+}
+
+.cards {
+  margin-top: 100px;
+}
+
+.card-body {
+  background-color: #e6e6e6;
+}
+.card-title {
+  color: rgb(29, 44, 58);
+  font-weight: bold;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.section3 {
+  background-color: #e6e6e6;
+  position: relative;
+}
+.section3paragraph {
+  margin-top: 70px;
+  text-align: left;
+}
+.section3 img {
+  width: 658px;
+  height: 700px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+.section4 {
+  background-color: rgb(237, 205, 31);
+  position: relative;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  /* display: flex; */
+}
+.above {
+  color: #3d5975;
+  font-weight: bold;
+  font-size: 55px;
+  margin-top: 50px;
+  line-height: 50px;
+}
+
+.down {
+  color: #3d5975;
+  font-weight: unset;
+  font-size: 35px;
+  line-height: 30px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+
+.section5 {
+  /* bottom: 150px; */
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+.section-header .section-title {
+  margin-top: 50px;
+  font-size: 70px;
+}
+.section-header .line {
+  width: 150px;
+  background: #ddd;
+  height: 2px;
+  margin: auto;
+}
+.section-header .line span {
+  display: block;
+  width: 100px;
+  height: 10px;
+  background-color: rgb(237, 205, 31);
+  margin: auto;
+  position: relative;
+  bottom: 2px;
+  /* margin-bottom: 50px; */
+}
+
+.section5Img {
+  margin-top: 50px;
+}
+.dowImg {
+  margin-top: 50px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+.section6 {
+  /* bottom: 200px; */
+  background-color: #ddd;
+  position: relative;
+}
+/* .section61Img{
+
+  background-image: url("../../../assets/firefoxElement/section61.webp") no-repeat;
+  }
+
+.section61Img:hover{
+background-image: url("../../../assets/firefoxElement/section61a.webp")
+}
+
+.section62Img{
+  background-image: url("../../../assets/firefoxElement/section62.webp")  no-repeat;
+  }
+
+.section62Img:hover{
+background-image: url("../../../assets/firefoxElement/section62a.webp")
+}
+
+.section63Img{
+  background-image: url("../../../assets/firefoxElement/section63.webp") no-repeat;
+  }
+
+.section63Img:hover{
+background-image: url("../../../assets/firefoxElement/section63a.webp")
+} */
+/*  */
+/*  */
+/*  */
+/*  */
+.section7 {
+  /* bottom: 250px; */
+  background-color: #ffffff;
+  position: relative;
+}
+
+.section7 input:hover {
+  background-color: #ffcb05;
+}
+.section7 textarea:hover {
+  background-color: #ffcb05;
+}
+
+.section7 .contactBTN {
+  width: 100px;
+  /* height: 30px; */
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(59, 58, 58, 1);
+  color: #ffcb05;
+}
+.section7 .contactBTN:hover {
+  background-color: #ffcb05;
+  color: rgba(59, 58, 58, 1);
+}
